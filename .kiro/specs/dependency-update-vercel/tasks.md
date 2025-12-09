@@ -33,21 +33,22 @@
   - Create script to verify all package versions meet requirements
   - **Validates: Requirements 1.1, 1.2, 1.3, 1.5**
 
-- [ ] 3. Fix API breaking changes from dependency updates
-- [ ] 3.1 Update axios usage for version 1.x
+- [-] 3. Fix API breaking changes from dependency updates
+
+- [x] 3.1 Update axios usage for version 1.x
 
   - Update error handling to use error.response pattern
   - Verify all HTTP requests in controllers
   - _Requirements: 4.4_
 
-- [ ] 3.2 Test API endpoints functionality
+- [x] 3.2 Test API endpoints functionality
 
   - Start API server and verify it runs without errors
   - Test database connection
   - Manually test key endpoints (dogs, temperaments)
   - _Requirements: 4.1, 8.2_
 
-- [ ] 3.3 Run existing API tests
+- [-] 3.3 Run existing API tests
 
   - Execute mocha tests
   - Fix any test failures related to updates

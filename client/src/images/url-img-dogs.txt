@@ -1,9 +1,0 @@
-LASSIE = https://wallpapercave.com/wp/wp3823545.jpg
-
-SCOOBY DOO = https://images4.alphacoders.com/110/1109774.jpg
-
-GOOFY = https://images8.alphacoders.com/448/448849.jpg
-
-PLUTO = https://images7.alphacoders.com/453/453345.jpg
-
-PRINCIPE = https://misanimales.com/wp-content/uploads/2020/12/golden-retriever-tumbado.jpg
