@@ -8,7 +8,9 @@
     "test": "mocha -w ./tests/**/*.spec.js",
     "test:api": "node test-api-routes.js",
     "test:vercel": "node test-vercel-api.js",
-    "db:sync": "node scripts/sync-database.js"
+    "db:sync": "node scripts/sync-database.js",
+    "db:test": "node scripts/test-db-performance.js",
+    "db:quick": "node scripts/quick-db-test.js"
   },
   "author": "Enderson Millan",
   "license": "ISC",

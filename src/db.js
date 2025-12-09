@@ -21,20 +21,22 @@ if (DATABASE_URL) {
     logging: false,
     native: false,
     pool: {
-      max: 1,
+      max: 2,
       min: 0,
-      acquire: 3000,
+      acquire: 10000,
       idle: 0,
     },
     dialectOptions: {
-      ssl:
-        process.env.NODE_ENV === "production"
-          ? {
-              require: true,
-              rejectUnauthorized: false,
-            }
-          : false,
-      connectTimeout: 3000,
+      ssl: {
+        require: true,
+        rejectUnauthorized: false,
+      },
+      connectTimeout: 10000,
+      statement_timeout: 10000,
+      query_timeout: 10000,
+    },
+    retry: {
+      max: 3,
     },
   });
 } else if (process.env.NODE_ENV === "production") {
